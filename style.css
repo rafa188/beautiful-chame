@@ -194,4 +194,8 @@ p {
     position: fixed;
     width: 80px;
 }
-
+.fontusada {
+    text-align: center;
+    background-color: gray;
+    border-radius: 20px;
+}
