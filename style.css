@@ -2,6 +2,24 @@
     margin: 0px;
     padding: 0px;
 }
+:root {
+    --font-color: color: #0A0A0A;
+}
+h2 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+#cash {
+    display: block ;
+    margin: auto;
+}
+#anuncio {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
 body {
     display: block;
     height: 1200px;
@@ -10,12 +28,13 @@ body {
 #logo {
     display: block;
     margin: auto;
-    padding: 10px;
-    width: 500px;
+    width: 400px;
+    padding-left: 20px;
 }
 #corponav {
     display: block;
     border: 1px solid black;
+    width: 100%;
     background-image: linear-gradient(to right , #28208C , black);
     background-image: linear-gradient(to left , #28208C , black);
 }
@@ -118,3 +137,61 @@ a:hover  i::after
     position: relative;
     bottom: -400px;
 }
+h3 {
+    display: block;
+    border: 1px solid var(--font-color);
+    position: relative;
+    bottom: -320px;
+    text-align: center;
+    font-size: small;
+    width: 100%;
+    color: white;
+}
+#wapp {
+    width: 30px;
+}
+.produto {
+    display: block;
+    position: static;
+    width: 400px;
+    padding-top: 40px;
+    margin: auto;
+}
+.valor {
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+
+.comprar {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    margin: auto;
+    text-shadow: 1px 5px 10px#27208c81;
+}
+.comprar:hover {
+    color: green;
+    text-shadow: 1px 0px 10pxgreen;
+}
+.perguntas {
+    color: white;
+    padding-top: 50px;
+}
+p {
+    text-transform: capitalize;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    
+}
+#watapps {
+    position: fixed;
+    width: 80px;
+}
+
